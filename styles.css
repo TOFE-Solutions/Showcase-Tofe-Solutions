@@ -109,6 +109,9 @@ a { color: inherit; }
 .profile-photo { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); min-width: 0; }
 .profile-photo img { width: 100%; height: auto; max-width: 100%; display: block; }
 
+.leistung-media { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); min-width: 0; }
+.leistung-media img { width: 100%; height: auto; max-width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+
 .benefit-tag { display: inline-flex; align-items: flex-start; gap: 0.55rem; background: rgba(217,85,43,.08); border-left: 3px solid var(--color-accent); padding: 0.65rem 1rem; border-radius: 6px; font-size: 0.92rem; margin: 1rem 0 0; }
 .benefit-tag strong { color: var(--color-text); }
 
